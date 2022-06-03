@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	
+	//Faça um programa em que o usuário digite 2 valores e se a soma deles for maior que 15
+	//o programa encerra, caso contrário, repete.
+	
+	int valor_1, valor_2, soma;
+	
+	do{
+		cout << "Informe um valor: ";
+		cin >> valor_1;
+		
+		cout << "Informe outro valor: ";
+		cin >> valor_2;
+		
+		cout << "\n";
+		
+		soma = valor_1 + valor_2;
+		
+		if(soma > 15){
+			cout << "A soma dos dois valores eh maior que 15";
+			break;
+		}
+		}while(valor_1 >= 0 && valor_2 >= 0);
+		
+}
