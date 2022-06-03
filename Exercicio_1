@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	
+	//Faça um programa que conte de 101 a 150 usando uma estrutura de repeticao.
+	
+	int i;
+	for(i = 101; i <= 150; i++){
+		cout << i << " ";
+	}
+}
