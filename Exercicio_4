@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	
+	//Ler 5 números e informar o menor e o maior.
+	
+	int i, numero;
+	int menor, maior;
+	
+	for(i = 0; i < 5; i++){
+		cout << "Informe um numero: ";
+		cin >> numero;
+		
+		if(i == 0){
+			maior = numero;
+			menor = numero;
+		}
+		
+		if(numero > maior){
+			maior = numero;
+		}else{
+			menor = numero;
+		}
+	}
+	
+	cout << "\nMaior numero: " << maior;
+	cout << "\nMenor numero: " << menor;
+}
