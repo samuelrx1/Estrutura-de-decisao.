@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	
+	//Ler N números e contar quantos são pares. O programa deve parar quando ler um
+	//múltiplo de 11.
+	
+	int numero, contador = 0;
+	
+	while(true){
+		if(numero % 11 == 0){
+			break;
+		}
+		
+		cout << "Informe um numero: ";
+		cin >> numero;
+		
+		if(numero % 2 == 0){
+			contador++;
+		}
+	}
+	
+	cout << contador << " sao numeros pares";
+}
