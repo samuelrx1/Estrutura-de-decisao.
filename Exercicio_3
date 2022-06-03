@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	
+	// Ler a idade de 10 pessoas e imprimir quantas são maiores de idade.
+	
+	int i, idade, contador = 0;
+	
+	for(i = 0; i < 10; i++){
+		cout << "Informe sua idade: ";
+		cin >> idade;
+	
+		if(idade >= 18){
+		contador++;
+	}
+	}
+	cout << contador << " pessoas sao maiores de idade";
+}
